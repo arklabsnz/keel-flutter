@@ -1,6 +1,6 @@
 name: keel
 description: A ViewModel based architecture for Flutter
-version: 0.0.1
+version: 0.0.2
 author: Josh Burton <athor3d@gmail.com>
 homepage: https://github.com/arklabsnz/keel-flutter
 
