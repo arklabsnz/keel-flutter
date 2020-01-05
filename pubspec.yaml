@@ -1,7 +1,6 @@
 name: keel
 description: A ViewModel based architecture for Flutter
-version: 0.0.3
-author: Josh Burton <athor3d@gmail.com>
+version: 0.0.4
 homepage: https://github.com/arklabsnz/keel-flutter
 
 environment:
@@ -11,8 +10,8 @@ dependencies:
   flutter:
     sdk: flutter
 
-  rxdart: ^0.23.0-dev.2
-  provider: ^3.2.0
+  rxdart: ^0.23.1
+  provider: ^4.0.1
 
 dev_dependencies:
   flutter_test:
