@@ -1,3 +1,8 @@
+## [0.0.5]
+
+* Updates RxDart to 0.24.0
+* Updates Provider to 4.0.5
+
 ## [0.0.4]
 
 * Updates Provider to 4.0.1
