@@ -1,3 +1,7 @@
+## [0.0.7]
+
+* Relaxes dependency constraints
+
 ## [0.0.6]
 
 * Relaxes dependency constraints
