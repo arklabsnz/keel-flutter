@@ -1,17 +1,17 @@
 name: keel
 description: A ViewModel based architecture for Flutter
-version: 0.0.7
+version: 1.0.0
 homepage: https://github.com/arklabsnz/keel-flutter
 
 environment:
-  sdk: ">=2.8.0 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
 
-  rxdart: ">=0.24.0  <1.0.0"
-  provider: ">=4.3.2+3  <5.0.0"
+  rxdart: ">=0.26.0  <1.0.0"
+  provider: ">=5.0.0-nullsafety.5  <6.0.0"
 
 dev_dependencies:
   flutter_test:

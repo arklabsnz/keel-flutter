@@ -1,3 +1,7 @@
+## [1.0.0]
+
+* Migrates to null safety
+
 ## [0.0.7]
 
 * Relaxes dependency constraints

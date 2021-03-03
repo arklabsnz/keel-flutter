@@ -2,9 +2,9 @@ import 'package:flutter/widgets.dart';
 import 'package:rxdart/rxdart.dart';
 
 abstract class ReactiveListRepository<D> {
-  final Subject<List<D>> _data = BehaviorSubject();
+  final Subject<List<D>?> _data = BehaviorSubject();
 
-  Stream<List<D>> get data => _data.stream;
+  Stream<List<D>?> get data => _data.stream;
 
   Stream<int> get count => _data.map((data) => data?.length ?? 0);
 

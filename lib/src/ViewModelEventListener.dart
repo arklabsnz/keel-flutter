@@ -9,19 +9,19 @@ class ViewModelEventListener<M, E> extends StatefulWidget {
   final Widget child;
   final Function(E) onEvent;
 
-  const ViewModelEventListener({Key key, @required this.child, @required this.onEvent}) : super(key: key);
+  const ViewModelEventListener({Key? key, required this.child, required this.onEvent}) : super(key: key);
 
   @override
   _ViewModelEventListenerState createState() => _ViewModelEventListenerState<M, E>();
 }
 
 class _ViewModelEventListenerState<M, E> extends State<ViewModelEventListener<M, E>> {
-  StreamSubscription<E> eventSubscription;
+  StreamSubscription<E>? eventSubscription;
 
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((_) {
+    WidgetsBinding.instance!.addPostFrameCallback((_) {
       if (mounted) {
         var model = Provider.of<M>(context, listen: false) as ViewModel<E>;
         model.onResume();
