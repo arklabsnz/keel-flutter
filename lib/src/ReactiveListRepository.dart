@@ -9,7 +9,7 @@ abstract class ReactiveListRepository<D> {
   Stream<int> get count => _data.map((data) => data?.length ?? 0);
 
   @protected
-  Future<List<D>> fetch();
+  Future<List<D>?> fetch();
 
   Future<void> update() {
     return fetch().then(_data.add).catchError((Object error, StackTrace stack) {

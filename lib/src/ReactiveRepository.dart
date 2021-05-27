@@ -7,15 +7,16 @@ abstract class ReactiveRepository<D> {
   Stream<D?> get data => _data.stream;
 
   @protected
-  Future<D> fetch();
+  Future<D?> fetch();
 
-  Future<D> update() {
+  Future<D?> update() {
     return fetch().then((data) {
       _data.add(data);
       return data;
     }).catchError((Object error, StackTrace stack) {
       debugPrint(stack.toString());
       _data.add(null);
+      return null;
     });
   }
 }

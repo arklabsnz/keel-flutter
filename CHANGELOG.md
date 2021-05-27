@@ -1,3 +1,7 @@
+## [1.0.1]
+
+* Allows some variables to be null
+
 ## [1.0.0]
 
 * Migrates to null safety
