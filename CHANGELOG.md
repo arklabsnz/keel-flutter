@@ -1,3 +1,7 @@
+## [1.0.2]
+
+* Updates Provider constraint to allow using Provider 6.0.0
+
 ## [1.0.1]
 
 * Allows some variables to be null
