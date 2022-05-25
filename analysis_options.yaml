@@ -1,0 +1,6 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    use_super_parameters: true
+    library_private_types_in_public_api: false

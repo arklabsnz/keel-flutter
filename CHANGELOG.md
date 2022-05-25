@@ -1,3 +1,7 @@
+## [1.0.3]
+
+* Updates for Flutter 3
+
 ## [1.0.2]
 
 * Updates Provider constraint to allow using Provider 6.0.0
